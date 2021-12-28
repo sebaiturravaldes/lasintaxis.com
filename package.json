@@ -7,12 +7,14 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prettier": "@siturra/prettier-config",
   "dependencies": {
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@siturra/prettier-config": "^1.0.3",
     "eslint": "8.5.0",
     "eslint-config-next": "12.0.7"
   }
