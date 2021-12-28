@@ -2,11 +2,12 @@
 
 ## Por hacer
 
-- [] Javascript
-  - [*] Operadores lógicos
-  - [*] Operadores de comparación
-  - [*] Funciones
-  - [*] if / else if / else
-  - [*] For
-  - [] While
-  - [] Class
+- [ ] Javascript
+  - [x] Operadores lógicos
+  - [x] Operadores de comparación
+  - [x] Funciones
+  - [x] if / else if / else
+  - [x] For
+  - [ ] While
+  - [ ] Class
+  - [ ] ...
