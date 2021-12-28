@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +13,42 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.syntax {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 700) {
+  .syntax {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+h2 {
+  font-size: 1.125rem;
+  letter-spacing: 0.035rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+table td,
+table th {
+  border-left: 1px solid #a4a4a4;
+  padding: 12px;
+  text-align: left;
+}
+table td,
+table th {
+  border: 0;
+  border-bottom: 1px solid #a4a4a4;
+}
+table th {
+  background-color: #d5d5d5;
 }
