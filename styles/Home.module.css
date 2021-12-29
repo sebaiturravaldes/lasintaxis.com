@@ -102,6 +102,10 @@
 }
 
 @media (max-width: 600px) {
+  .title {
+    font-size: 3rem;
+  }
+
   .grid {
     width: 100%;
     flex-direction: column;
