@@ -8,6 +8,7 @@
   - [x] Funciones
   - [x] if / else if / else
   - [x] For
-  - [ ] While
-  - [ ] Class
+  - [x] While
+  - [x] Class
+  - [ ] Array
   - [ ] ...

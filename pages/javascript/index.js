@@ -129,6 +129,57 @@ console.log('End');
             codeBlock
           />
         </div>
+        <div>
+          <h2>While Loop</h2>
+          <CopyBlock
+            text={`let number = 0;
+while (number < 4) {
+  console.log(number);
+  number = number + 1; // number++;
+} 
+
+//0
+//1
+//2
+//3
+`}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
+
+        <div>
+          <h2>Class</h2>
+          <CopyBlock
+            text={`class Rectangle {
+  height;
+  width;
+  
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+  // Getter
+  get area() {
+    return this.calcArea();
+  }
+  // Method
+  calcArea() {
+    return this.height * this.width;
+  }
+}
+
+const square = new Rectangle(10, 10);
+
+console.log(square.area); // 100`}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
       </div>
     </div>
   )
