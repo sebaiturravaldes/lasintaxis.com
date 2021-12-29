@@ -16,13 +16,23 @@ a {
 }
 
 .syntax {
+  padding-bottom: 200px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.syntax > div {
+  padding: 0 5%;
+  width: 100%;
+  flex: 1 1 28%;
 }
 
 @media (min-width: 700) {
   .syntax {
     flex-direction: column;
+    justify-content: center;
   }
 
   h2 {
@@ -36,6 +46,10 @@ h2 {
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 12px;
+}
+
+table {
+  width: 100%;
 }
 
 table td,
