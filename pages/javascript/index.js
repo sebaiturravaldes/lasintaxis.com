@@ -9,7 +9,14 @@ export default function Page() {
       </h1>
       <div className="syntax">
         <div>
-          <h2>Operadores de comparación</h2>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_de_comparaci%C3%B3n"
+              target="_blank"
+              rel="noreferrer">
+              Operadores de comparación
+            </a>
+          </h2>
           <table>
             <thead>
               <tr>
@@ -55,7 +62,14 @@ export default function Page() {
         </div>
 
         <div>
-          <h2>Operadores lógicos</h2>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_l%C3%B3gicos"
+              target="_blank"
+              rel="noreferrer">
+              Operadores lógicos
+            </a>
+          </h2>
           <table>
             <thead>
               <tr>
@@ -162,7 +176,14 @@ export default function Page() {
         </div>
 
         <div>
-          <h2>Funciones</h2>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions"
+              target="_blank"
+              rel="noreferrer">
+              Funciones
+            </a>
+          </h2>
           <CopyBlock
             text={`function square(number) {
   return number * number;

@@ -11,6 +11,6 @@
   - [x] For
   - [x] While
   - [x] Class
-  - [ ] switch
+  - [x] switch
   - [ ] Array
   - [ ] ...
