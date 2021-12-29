@@ -36,6 +36,12 @@ export default function Home() {
               <p>Ver la sintaxis de este framework.</p>
             </a>
           </Link>
+          <Link href="/rust">
+            <a className={styles.card}>
+              <h2>Rust &rarr;</h2>
+              <p>Ver la sintaxis de este lenguaje.</p>
+            </a>
+          </Link>
         </div>
       </main>
 

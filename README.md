@@ -17,5 +17,19 @@
   - [ ] ...
 
 - [ ] React
+
   - [ ] Hooks
+  - [ ] ...
+
+- [ ] Rust
+  - [ ] Operadores lógicos
+  - [ ] Operadores de comparación
+  - [ ] Operadores aritméticos
+  - [ ] Funciones
+  - [x] if / else if / else
+  - [ ] For
+  - [ ] While
+  - [ ] Class
+  - [ ] switch
+  - [ ] Array
   - [ ] ...
