@@ -3,6 +3,7 @@
 ## Por hacer
 
 - [ ] Javascript
+
   - [x] Operadores lógicos
   - [x] Operadores de comparación
   - [x] Operadores aritméticos
@@ -13,4 +14,8 @@
   - [x] Class
   - [x] switch
   - [ ] Array
+  - [ ] ...
+
+- [ ] React
+  - [ ] Hooks
   - [ ] ...
