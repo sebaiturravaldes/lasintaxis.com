@@ -19,25 +19,25 @@ export default function Home() {
 
         <p className="description">
           En este sitio podrás encontrar las sintaxis de los lenguajes de programación y{' '}
-          <i>frameworks</i>, para ayudarte su aprendizaje
+          <i>frameworks</i>, para ayudarte en tu aprendizaje
         </p>
 
         <div className={styles.grid}>
           <Link href="/javascript">
-            <a className={styles.card}>
+            <a className="card card-js">
               <h2>Javascript &rarr;</h2>
               <p>Ver la sintaxis de este lenguaje.</p>
             </a>
           </Link>
 
           <Link href="/react">
-            <a className={styles.card}>
+            <a className="card">
               <h2>React &rarr;</h2>
               <p>Ver la sintaxis de este framework.</p>
             </a>
           </Link>
           <Link href="/rust">
-            <a className={styles.card}>
+            <a className="card card-rust">
               <h2>Rust &rarr;</h2>
               <p>Ver la sintaxis de este lenguaje.</p>
             </a>
