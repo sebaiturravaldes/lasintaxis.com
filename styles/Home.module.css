@@ -29,19 +29,16 @@
 }
 
 .title a {
-  color: #0070f3;
   text-decoration: none;
-
-  background: linear-gradient(90deg, #007cf0, #00dfd8);
+  background: linear-gradient(to right, #7300df 20%, #007cf0 40%, #007cf0 60%, #7300df 80%);
   background-size: 200% auto;
-
   color: #000;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  animation: shine 1s linear infinite;
+  animation: shine 8s linear infinite;
 }
 
 @keyframes shine {
