@@ -10,7 +10,7 @@ export default function Home() {
           Bienvenido a <a>La Sintaxis!</a>
         </h1>
 
-        <p className="description">
+        <p className={styles.description}>
           En este sitio podrás encontrar las sintaxis de los lenguajes de programación y{' '}
           <i>frameworks</i>
         </p>
