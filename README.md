@@ -14,14 +14,25 @@
   - [x] Class
   - [x] switch
   - [ ] Array
+  - [ ] Try...catch
   - [ ] ...
 
-- [ ] React
+- [ ] Python
 
-  - [ ] Hooks
+  - [x] Operadores lógicos
+  - [x] Operadores de comparación
+  - [x] Operadores aritméticos
+  - [x] Funciones
+  - [x] if / else if / else
+  - [x] For
+  - [x] While
+  - [x] Class
+  - [ ] Array
+  - [ ] Try...catch
   - [ ] ...
 
 - [ ] Rust
+
   - [ ] Operadores lógicos
   - [ ] Operadores de comparación
   - [ ] Operadores aritméticos
@@ -32,4 +43,9 @@
   - [ ] Class
   - [ ] switch
   - [ ] Array
+  - [ ] Try...catch
+  - [ ] ...
+
+- [ ] React
+  - [ ] Hooks
   - [ ] ...

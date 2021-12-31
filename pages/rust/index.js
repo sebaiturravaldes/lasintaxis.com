@@ -22,7 +22,7 @@ export default function Page() {
             text={`fn print_number(n: i32) {
   println!("n is: {}", n);
 }`}
-            language="javascript"
+            language="rust"
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -46,7 +46,7 @@ export default function Page() {
 } else {
   print!("{} is zero", n);
 }`}
-            language="javascript"
+            language="rust"
             theme="dracula"
             showLineNumbers={true}
             codeBlock

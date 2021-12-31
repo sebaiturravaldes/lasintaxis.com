@@ -23,12 +23,21 @@
   color: #fbbf24;
   border-color: #fbbf24;
 }
+
+.card-python:hover,
+.card-python:focus,
+.card-python:active {
+  color: #09af00;
+  border-color: #09af00;
+}
+
 .card-rust:hover,
 .card-rust:focus,
 .card-rust:active {
   color: #222;
   border-color: #222;
 }
+
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;

@@ -30,6 +30,13 @@ export default function Home() {
             </a>
           </Link>
 
+          <Link href="/python">
+            <a className="card card-python">
+              <h2>Python &rarr;</h2>
+              <p>Ver la sintaxis de este lenguaje.</p>
+            </a>
+          </Link>
+
           <Link href="/react">
             <a className="card">
               <h2>React &rarr;</h2>
