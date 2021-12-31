@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -49,6 +50,19 @@ export default function Home() {
               <p>Ver la sintaxis de este framework</p>
             </a>
           </Link>
+        </div>
+
+        <div>
+          <Script async defer src="https://buttons.github.io/buttons.js" />
+          <a
+            className="github-button"
+            href="https://github.com/siturra/lasintaxis.com"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star siturra/lasintaxis.com on GitHub">
+            Star
+          </a>
         </div>
       </main>
 
