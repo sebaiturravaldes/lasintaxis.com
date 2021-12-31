@@ -1,20 +1,12 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Sintaxis de los lenguajes de programación</title>
-        <meta name="description" content="Sintaxis de los lenguajes de programación" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="google" content="notranslate" />
-      </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bienvenido a <a>Sintaxis de los lenguajes de programación!</a>
+          Bienvenido a <a>Sintaxis!</a>
         </h1>
 
         <p className="description">
