@@ -31,6 +31,23 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+
+  background: linear-gradient(90deg, #007cf0, #00dfd8);
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 1s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .title a:hover,

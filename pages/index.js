@@ -11,7 +11,7 @@ export default function Home() {
 
         <p className="description">
           En este sitio podrás encontrar las sintaxis de los lenguajes de programación y{' '}
-          <i>frameworks</i>, para ayudarte en tu aprendizaje
+          <i>frameworks</i>
         </p>
 
         <div className={styles.grid}>
