@@ -17,27 +17,27 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/javascript">
             <a className="card card-js">
-              <h2>Javascript &rarr;</h2>
+              <h2>Javascript</h2>
               <p>Ver la sintaxis de este lenguaje.</p>
             </a>
           </Link>
 
           <Link href="/python">
             <a className="card card-python">
-              <h2>Python &rarr;</h2>
+              <h2>Python</h2>
               <p>Ver la sintaxis de este lenguaje.</p>
             </a>
           </Link>
 
           <Link href="/react">
             <a className="card">
-              <h2>React &rarr;</h2>
+              <h2>React</h2>
               <p>Ver la sintaxis de este framework.</p>
             </a>
           </Link>
           <Link href="/rust">
             <a className="card card-rust">
-              <h2>Rust &rarr;</h2>
+              <h2>Rust</h2>
               <p>Ver la sintaxis de este lenguaje.</p>
             </a>
           </Link>
