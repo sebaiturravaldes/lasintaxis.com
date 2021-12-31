@@ -31,6 +31,13 @@
   border-color: #09af00;
 }
 
+.card-php:hover,
+.card-php:focus,
+.card-php:active {
+  color: #7300df;
+  border-color: #7300df;
+}
+
 .card-rust:hover,
 .card-rust:focus,
 .card-rust:active {

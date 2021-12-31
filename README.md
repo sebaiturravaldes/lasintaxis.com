@@ -31,6 +31,21 @@
   - [ ] Try...catch
   - [ ] ...
 
+- [ ] PHP
+
+  - [x] Operadores lógicos
+  - [x] Operadores de comparación
+  - [x] Operadores aritméticos
+  - [x] Funciones
+  - [x] if / else if / else
+  - [x] switch
+  - [x] For
+  - [x] While
+  - [x] Class
+  - [ ] Array
+  - [ ] Try...catch
+  - [ ] ...
+
 - [ ] Rust
 
   - [ ] Operadores lógicos

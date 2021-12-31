@@ -29,24 +29,35 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/react">
-            <a className="card">
-              <h2>React</h2>
-              <p>Ver la sintaxis de este framework</p>
+          <Link href="/php">
+            <a className="card card-php">
+              <h2>PHP</h2>
+              <p>Ver la sintaxis de este lenguaje</p>
             </a>
           </Link>
+
           <Link href="/rust">
             <a className="card card-rust">
               <h2>Rust</h2>
               <p>Ver la sintaxis de este lenguaje</p>
             </a>
           </Link>
+
+          <Link href="/react">
+            <a className="card">
+              <h2>React</h2>
+              <p>Ver la sintaxis de este framework</p>
+            </a>
+          </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://github.com/siturra/syntax" target="_blank" rel="noopener noreferrer">
-          Powered by Syntax
+        <a
+          href="https://github.com/siturra/lasintaxis.com"
+          target="_blank"
+          rel="noopener noreferrer">
+          Powered by LaSintaxis
         </a>
       </footer>
     </div>
