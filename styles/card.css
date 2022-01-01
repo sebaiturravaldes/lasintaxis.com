@@ -45,6 +45,13 @@
   border-color: #222;
 }
 
+.card-java:hover,
+.card-java:focus,
+.card-java:active {
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;

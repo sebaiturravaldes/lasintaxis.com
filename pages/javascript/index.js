@@ -250,7 +250,14 @@ console.log("Is there anything else you'd like?");`}
         </div>
 
         <div>
-          <h2>For Loop</h2>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/for"
+              target="_blank"
+              rel="noreferrer">
+              for Loop
+            </a>
+          </h2>
           <CopyBlock
             text={`for (let number = 0; number <= 4; number++) {
   console.log(number);
@@ -271,7 +278,14 @@ console.log('End');
           />
         </div>
         <div>
-          <h2>While Loop</h2>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/while"
+              target="_blank"
+              rel="noreferrer">
+              While Loop
+            </a>
+          </h2>
           <CopyBlock
             text={`let number = 0;
 while (number < 4) {
@@ -284,6 +298,32 @@ while (number < 4) {
 //2
 //3
 `}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
+
+        <div>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/try...catch"
+              target="_blank"
+              rel="noreferrer">
+              try...catch
+            </a>
+          </h2>
+          <CopyBlock
+            text={`try {
+  nonExistentFunction();
+} catch (error) {
+  console.error(error);
+  // expected output: ReferenceError: nonExistentFunction is not defined
+  // Note - error messages will vary depending on browser
+} finally {
+  // This sentence will always be executed
+}`}
             language="javascript"
             theme="dracula"
             showLineNumbers={true}
