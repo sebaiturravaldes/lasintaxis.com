@@ -44,6 +44,13 @@ export default function Home() {
             </a>
           </Link>
 
+          <Link href="/java">
+            <a className="card card-java">
+              <h2>Java</h2>
+              <p>Ver la sintaxis de este lenguaje</p>
+            </a>
+          </Link>
+
           <Link href="/react">
             <a className="card">
               <h2>React</h2>

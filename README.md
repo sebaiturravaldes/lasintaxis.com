@@ -78,17 +78,17 @@
 
 - [ ] Java
 
-  - [ ] Operadores lógicos
-  - [ ] Operadores de comparación
-  - [ ] Operadores aritméticos
-  - [ ] Funciones
-  - [ ] if / else if / else
-  - [ ] For
-  - [ ] While
-  - [ ] Class
-  - [ ] switch
+  - [x] Operadores lógicos
+  - [x] Operadores de comparación
+  - [x] Operadores aritméticos
+  - [x] Funciones
+  - [x] if / else if / else
+  - [x] For
+  - [x] While
+  - [x] Class
+  - [x] switch
+  - [x] Try...catch
   - [ ] Array
-  - [ ] Try...catch
   - [ ] ...
 
 - [ ] C
