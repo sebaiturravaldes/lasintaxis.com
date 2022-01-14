@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { CopyBlock } from 'react-code-blocks'
 
 export default function Page() {
+  const language = 'javascript'
+
   return (
     <div>
       <h1>
@@ -188,7 +190,7 @@ export default function Page() {
             text={`function square(number) {
   return number * number;
 }`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -208,7 +210,7 @@ export default function Page() {
             text={`(number) => {
   return number * number;
 }`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -232,7 +234,7 @@ export default function Page() {
 } else {
   // do some default thing
 }`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -262,7 +264,7 @@ export default function Page() {
 }
 
 console.log("Is there anything else you'd like?");`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -291,7 +293,7 @@ console.log('End');
 //4
 //End
 `}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -318,7 +320,7 @@ while (number < 4) {
 //2
 //3
 `}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -346,7 +348,7 @@ console.log(first)
 const last = fruits[fruits.length - 1]
 console.log(last)
 // Orange`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -369,7 +371,7 @@ const doubles = numbers.map(function(x) {
 });
 // doubles is now [2, 10, 20, 30]
 // numbers is still [1, 5, 10, 15]`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -390,7 +392,7 @@ const doubles = numbers.map(function(x) {
   return previousValue + currentValue
 }, 0)
 // sum is 6`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -414,7 +416,7 @@ const result = words.filter(word => word.length > 6);
 console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
 `}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -440,7 +442,7 @@ console.log(result);
 } finally {
   // This sentence will always be executed
 }`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
@@ -471,7 +473,7 @@ console.log(result);
 const square = new Rectangle(10, 10);
 
 console.log(square.area); // 100`}
-            language="javascript"
+            language={language}
             theme="dracula"
             showLineNumbers={true}
             codeBlock
