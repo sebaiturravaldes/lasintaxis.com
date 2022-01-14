@@ -167,7 +167,7 @@ export default function Page() {
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation"
                     target="_blank"
                     rel="noreferrer">
-                    Exponent
+                    Exponente
                   </a>
                 </td>
               </tr>
@@ -186,6 +186,26 @@ export default function Page() {
           </h2>
           <CopyBlock
             text={`function square(number) {
+  return number * number;
+}`}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
+
+        <div>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+              target="_blank"
+              rel="noreferrer">
+              Función de flecha (Arrow Function)
+            </a>
+          </h2>
+          <CopyBlock
+            text={`(number) => {
   return number * number;
 }`}
             language="javascript"
@@ -297,6 +317,102 @@ while (number < 4) {
 //1
 //2
 //3
+`}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
+
+        <div>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array"
+              target="_blank"
+              rel="noreferrer">
+              Arrays
+            </a>
+          </h2>
+          <CopyBlock
+            text={`const fruits = ["Apple", "Orange"]
+console.log(fruits.length)
+// 2
+
+const first = fruits[0]
+console.log(first)
+// Apple
+
+const last = fruits[fruits.length - 1]
+console.log(last)
+// Orange`}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
+
+        <div>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+              target="_blank"
+              rel="noreferrer">
+              Array.map
+            </a>
+          </h2>
+          <CopyBlock
+            text={`const numbers = [1, 5, 10, 15];
+const doubles = numbers.map(function(x) {
+    return x * 2;
+});
+// doubles is now [2, 10, 20, 30]
+// numbers is still [1, 5, 10, 15]`}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
+
+        <div>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+              target="_blank"
+              rel="noreferrer">
+              Array.reduce
+            </a>
+          </h2>
+          <CopyBlock
+            text={`const sum = [0, 1, 2, 3].reduce((previousValue, currentValue) => {
+  return previousValue + currentValue
+}, 0)
+// sum is 6`}
+            language="javascript"
+            theme="dracula"
+            showLineNumbers={true}
+            codeBlock
+          />
+        </div>
+
+        <div>
+          <h2>
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+              target="_blank"
+              rel="noreferrer">
+              Array.filter
+            </a>
+          </h2>
+          <CopyBlock
+            text={`const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
 `}
             language="javascript"
             theme="dracula"
