@@ -12,7 +12,8 @@
     "next": "12.0.7",
     "react": "17.0.2",
     "react-code-blocks": "^0.0.9-0",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-to-pdf": "^0.0.14"
   },
   "devDependencies": {
     "@siturra/prettier-config": "^1.0.3",

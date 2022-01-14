@@ -1,13 +1,27 @@
+import { createRef } from 'react'
 import Link from 'next/link'
 import { CopyBlock } from 'react-code-blocks'
+import ReactToPdf from 'react-to-pdf'
 
 export default function Page() {
+  const title = 'Javascript'
+  const ref = createRef()
+
   return (
     <div>
+      <ReactToPdf
+        targetRef={ref}
+        filename={`${title}.pdf`}
+        options={{
+          orientation: 'landscape',
+          scale: 1
+        }}>
+        {({ toPdf }) => <button onClick={toPdf}>Generate pdf</button>}
+      </ReactToPdf>
       <h1>
-        <Link href="/">Javascript</Link>
+        <Link href="/">{title}</Link>
       </h1>
-      <div className="syntax">
+      <div className="syntax" ref={ref}>
         <div>
           <h2>
             <a
