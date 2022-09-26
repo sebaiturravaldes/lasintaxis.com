@@ -57,6 +57,13 @@ export default function Home() {
               <p>Ver la sintaxis de este framework</p>
             </a>
           </Link>
+
+          <Link href="/sass">
+            <a className="card card-sass">
+              <h2>SASS</h2>
+              <p>Ver la sintaxis de este pre-procesador</p>
+            </a>
+          </Link>
         </div>
 
         <div>

@@ -17,6 +17,13 @@
   border-color: #0070f3;
 }
 
+.card-sass:hover,
+.card-sass:focus,
+.card-sass:active {
+  color: #f87171;
+  border-color: #f87171;
+}
+
 .card-js:hover,
 .card-js:focus,
 .card-js:active {
